@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Описание товара</title>
+<link rel="stylesheet" href="/static/Buy.css">
+<style type="text/css">
+    A {
+     color: #fff; 
+    }
+    A:visited {
+     color: #fff; 
+    }
+   </style>
+</head>
+<header>
+<h1>ServSupp</h1>
+<h4>+7 977 720 91-41</h4>
+<nav>
+<ul>
+    <li><a style="text-decoration: none;" href="Main"  >Главная страница</a></li>
+    <li><a style=" text-decoration: none;" href="Tovars">Товары</a></li>
+    <li><a style="text-decoration: none;" href="services">Услуги</a></li>
+    <li><a style="text-decoration: none;" href="Contacts">Контакты</a></li>
+</ul>
+</nav>
+</header>
+<body>
+<h5>Форма оформления заказа</h5>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      
+        <div class="row">
+          <div class="col-50">
+            <h3>Платежный адрес</h3>
+            <label for="fname"><i class="fa fa-user"></i> ФИО</label>
+            <input type="text" id="fname" name="firstname" placeholder="Иван Иванов Иванович">
+            <label for="email"><i class="fa fa-envelope"></i> Электронная почта</label>
+            <input type="text" id="email" name="email" placeholder="Ivan@mail.com">
+            <label for="email"><i class="fa fa-phone"></i> Контактный телефон</label>
+            <input type="text" id="email" name="email" placeholder="+7 999-999-99-99">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Адрес</label>
+            <input type="text" id="adr" name="address" placeholder="Ул. Пушкина, Д. Колотушкина 19">
+            <label for="city"><i class="fa fa-institution"></i> Город</label>
+            <input type="text" id="city" name="city" placeholder="Москва">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">Республика</label>
+                <input type="text" id="state" name="state" placeholder="Алтай">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Оплата</h3>
+            <label for="cname">Имя на карте</label>
+            <input type="text" id="cname" name="cardname" placeholder="Иван Иванов Иванович">
+            <label for="ccnum">Номер карты</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Месяц срока истечения</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="Сентябрь">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Год срока истечения</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2024">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+         <div class="zakazat">
+            <li><a style="text-decoration: none;" href="zakazano">Заказать</a></li>
+         </div>
+      </form>
+    </div>
+  </div>
+</div>
+<footer>
+    <p>&copy; 2024 ServSupp. Все права защищены.</p>
+</footer>
+</body>
+</html>
+

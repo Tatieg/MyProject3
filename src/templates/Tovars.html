@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Веб-сайт для покупки специализированных серверов</title>
+<link rel="stylesheet" href="/static/style1.css">
+<style type="text/css">
+    A {
+     color: #fff; 
+    }
+    A:visited {
+     color: #fff; 
+    }
+   </style>
+</head>
+<body>
+    <header>
+        <h1>ServSupp</h1>
+        <h4>+7 977 720 91-41</h4>
+        <nav>
+        <ul>
+            <li><a style="text-decoration: none;" href="Main"  >Главная страница</a></li>
+            <li><a style=" text-decoration: none;" href="Tovars">Товары</a></li>
+            <li><a style="text-decoration: none;" href="services">Услуги</a></li>
+            <li><a style="text-decoration: none;" href="Contacts">Контакты</a></li>
+        </ul>
+        </nav>
+        </header>
+
+<div class="container">
+<div class="product">
+  <img src="{{ url_for('static', filename='/images/1server.jpg') }}" alt="Server 1">
+<h3>Сервер DELL R250 4LFF</h3>
+<p>от 166 132 ₽</p>
+<p class="target">Назначение: Файловый сервер</p>
+<button id="Server 1">Подробнее О Товаре</button>
+<script>
+    document.getElementById("Server 1").addEventListener("click", function() {
+      window.location.href = "Description_1Server";
+    });
+    </script>
+</div>
+
+<div class="product">
+<img src="{{ url_for('static', filename='/images/2server.jpg') }}" alt="Server 2">
+<h3>Сервер HPE DL360 Gen10 8SFF</h3>
+<p>от 560 648 ₽</p>
+<p class="target">Назначение: Виртуализация</p>
+<button id="Server 2">Подробнее О Товаре</button>
+<script>
+    document.getElementById("Server 2").addEventListener("click", function() {
+      window.location.href = "Description_2Server";
+    });
+    </script>
+</div>
+
+<div class="product">
+<img src="{{ url_for('static', filename='/images/3server.jpg') }}" alt="Server 3">
+<h3>Сервер HPE DL380 Gen10 8SFF</h3>
+<p>от 471 712 ₽</p>
+<p class="target">Назначение: Базы данных</p>
+<button id="Server 3">Подробнее О Товаре</button>
+<script>
+    document.getElementById("Server 3").addEventListener("click", function() {
+      window.location.href = "Description_3Server";
+    });
+    </script>
+</div>
+
+<div class="product">
+<img src="{{ url_for('static', filename='/images/4server.jpg') }}" alt="Server 4">
+<h3>Сервер DELL R750 24SFF</h3>
+<p>от 68 607 ₽</p>
+<p class="target">Назначение: Для офиса</p>
+<button id="Server 4">Подробнее О Товаре</button>
+<script>
+    document.getElementById("Server 4").addEventListener("click", function() {
+      window.location.href = "Description_4Server";
+    });
+    </script>
+</div>
+
+<div class="product">
+<img src="{{ url_for('static', filename='/images/5server.jpg') }}" alt="Server 5">
+<h3>Сервер HPE DL380 Gen10 8SFF</h3>
+<p>от 152 636 ₽</p>
+<p class="target">Назначение: Видеонаблюдение</p>
+<button id="Server 5">Подробнее О Товаре</button>
+<script>
+    document.getElementById("Server 5").addEventListener("click", function() {
+      window.location.href = "Description_5Server";
+    });
+    </script>
+</div>
+</div>
+
+<div class="container1">
+    <div class="product">
+    <img src="{{ url_for('static', filename='/images/6server.jpg') }}" alt="Server 6">
+    <h3>Сервер SuperServer 1029</h3>
+    <p>от 85 990₽</p>
+    <p class="target">Назначение: Файловый сервер</p>
+
+    <button id="Server 6">Подробнее О Товаре</button>
+    <script>
+        document.getElementById("Server 6").addEventListener("click", function() {
+          window.location.href = "Description_6Server";
+        });
+        </script>
+</div>
+
+<div class="product">
+    <img src="{{ url_for('static', filename='/images/7server.jpg') }}" alt="Server 7">
+    <h3>Сервер iRU Rock s1204p121AA, 1U</h3>
+    <p>от 286 900₽</p>
+    <p class="target">Назначение: Веб-сервер</p>
+
+    <button id="Server 7">Подробнее О Товаре</button>
+    <script>
+        document.getElementById("Server 7").addEventListener("click", function() {
+          window.location.href = "Description_7Server";
+        });
+        </script>
+    </div>
+
+
+<div class="product">
+    <img src="{{ url_for('static', filename='/images/8server.jpg') }}" alt="Server 8">
+    <h3>Сервер iRU0 Rock C1210P</h3>
+    <p>от 356 122 ₽</p>
+    <p class="target">Назначение: Базы Данных</p>
+
+    <button id="Server 8">Подробнее О Товаре</button>
+    <script>
+        document.getElementById("Server 8").addEventListener("click", function() {
+          window.location.href = "Description_8Server";
+        });
+        </script>
+    </div>
+
+
+<div class="product">
+    <img src="{{ url_for('static', filename='/images/9server.jpg') }}" alt="Server 9">
+    <h3>Сервер iRU Rock c1204p</h3>
+    <p>от 133 651 ₽</p>
+    <p class="target">Назначение: Управление ресурсами</p>
+
+    <button id="Server 9">Подробнее О Товаре</button>
+    <script>
+        document.getElementById("Server 9").addEventListener("click", function() {
+          window.location.href = "Description_9Server";
+        });
+        </script>
+    </div>
+
+
+<div class="product">
+    <img src="{{ url_for('static', filename='/images/10server.jpg') }}" alt="Server 10">
+    <h3>Сервер Lenovo 7Z73TA7Y00, 2U</h3>
+    <p>от 321 411 ₽</p>
+    <p class="target">Назначение:Анализ данных</p>
+    <button id="Server 10">Подробнее О Товаре</button>
+    <script>
+        document.getElementById("Server 10").addEventListener("click", function() {
+          window.location.href = "Description_10Server";
+        });
+        </script>
+</div>
+</div>
+
+<div class="container2">
+    <div class="product">
+    <img src="{{ url_for('static', filename='/images/11server.jpg') }}" alt="Server 11">
+    <h3>Сервер IBM x3650 M4 8SFF </h3>
+    <p>от 90 121₽</p>
+    <p class="target">Назначение: Управление ресурсами</p>
+
+    <button id="Server 11">Подробнее О Товаре</button>
+    <script>
+        document.getElementById("Server 11").addEventListener("click", function() {
+          window.location.href = "Description_11Server";
+        });
+        </script>
+</div>
+
+<div class="product">
+    <img src="{{ url_for('static', filename='/images/12server.jpg') }}" alt="Server 12">
+    <h3>Сервер IBM x3530 M4 8SFF </h3>
+    <p>от 76 121₽</p>
+    <p class="target">Назначение: Файловый сервер</p>
+
+    <button id="Server 12">Подробнее О Товаре</button>
+    <script>
+        document.getElementById("Server 12").addEventListener("click", function() {
+          window.location.href = "Description_12Server";
+        });
+        </script>
+</div>
+
+<div class="product">
+    <img src="{{ url_for('static', filename='/images/13server.jpg') }}" alt="Server 13">
+    <h3>Сервер IBM x3650 M5 8SFF </h3>
+    <p>от 851 021₽</p>
+    <p class="target">Назначение: Видеонаблюдение</p>
+
+    <button id="Server 13">Подробнее О Товаре</button>
+    <script>
+        document.getElementById("Server 13").addEventListener("click", function() {
+          window.location.href = "Description_13Server";
+        });
+        </script>
+</div>
+
+<div class="product">
+    <img src="{{ url_for('static', filename='/images/14server.jpg') }}" alt="Server 14">
+    <h3>Сервер IBM x3650 M4 16SFF</h3>
+    <p>от 491 012₽</p>
+    <p class="target">Назначение: Файловый сервер</p>
+
+    <button id="Server 14">Подробнее О Товаре</button>
+    <script>
+        document.getElementById("Server 14").addEventListener("click", function() {
+          window.location.href = "Description_14Server";
+        });
+        </script>
+</div>
+
+<div class="product">
+    <img src="{{ url_for('static', filename='/images/15server.jpg') }}" alt="Server 15">
+    <h3>Сервер IBM x3630 M4 8LFF</h3>
+    <p>от 83 011₽</p>
+    <p class="target">Назначение: Сервер Баз данных</p>
+
+    <button id="Server 15">Подробнее О Товаре</button>
+    <script>
+        document.getElementById("Server 15").addEventListener("click", function() {
+          window.location.href = "Description_15Server";
+        });
+        </script>
+</div>
+</div>
+
+<footer>
+<p>&copy; 2024 ServSupp. Все права защищены.</p>
+</footer>
+
+</body>
+</html> 

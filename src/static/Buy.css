@@ -1,0 +1,156 @@
+h1 {
+    font-family:Verdana, sans-serif;
+  }
+
+h4 {
+    font-family:'Courier New', Courier, monospace;
+    margin-left:80%;
+    margin-top: -48px;
+    font-size: 25px;
+   }
+
+h5 {
+    font-family:'Courier New', Courier, monospace;
+    margin-left:40%;
+    font-size: 35px;
+    
+}
+
+header {
+    background-color: #330281;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    text-shadow: 1px 0 1px #ff0000, 
+    0 1px 1px #ff0000, 
+    -1px 0 1px #ff0000, 
+    0 -1px 1px #ff0000;
+    font-size:medium;
+    }
+
+nav ul {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+        }
+nav ul li {
+          display: inline;
+          margin-right: 20px;
+          background-color: #330281;
+          padding: 10px 10px;
+          }
+      
+nav ul li:hover { 
+              background:#4a01c0; 
+            } 
+      
+nav ul li:active { 
+              background:#4a01c0;
+            
+            } 
+
+footer {
+  background-color: #333;
+   color: #fff;
+      text-align: center;
+        padding: 21px 0;
+         color:#fff;
+        text-shadow: 1px 0 1px #000000, 
+            -1px 0 1px #000000, 
+           0 -1px 1px #000000;
+                font-family:'Courier New', Courier, monospace;
+              font-size: large;
+                } 
+
+body {
+    font-family: Arial;
+    font-size: 25px;
+    padding: 8px;
+font-family: Arial, sans-serif;
+    margin: 0;
+     padding: 0;
+     zoom: 80%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+
+    flex: 100%;
+  }
+  
+  .col-50 {
+
+    flex: 50%;
+  }
+  
+  .col-75 {
+
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .zakazat li {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 50%;
+    border: none;
+    width: 50%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 25px;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .zakazat li:hover {
+    background-color: #45a049;
+  }
+  
+  a {
+    color: #2196F3;
+  }
+  
+  hr {
+    border: 1px solid lightgrey;
+  }
+  

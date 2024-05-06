@@ -1,0 +1,94 @@
+h1 {
+    font-family:Verdana, sans-serif;
+  }
+  h4 {
+    font-family:'Courier New', Courier, monospace;
+    margin-left:80%;
+    margin-top: -48px;
+    font-size: 25px;
+   }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    zoom: 80%;
+    color: rgb(0, 0, 0);
+    background-color: rgba(254, 255, 244, 0.651);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    text-shadow: 1px 0 1px #bcffe3, 
+    0 1px 1px #bcffe3, 
+    1px 0 1px #bcffe3, 
+    0 1px 1px #bcffe3;
+}
+
+h2  {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: #330281;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    text-shadow: 1px 0 1px #ff0000, 
+    0 1px 1px #ff0000, 
+    -1px 0 1px #ff0000, 
+    0 -1px 1px #ff0000;
+    font-size:16px;
+    }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    background-color: #330281;
+    padding: 10px 10px;
+    }
+
+      nav ul li:hover { 
+        background:#4a01c0; 
+      } 
+
+      nav ul li:active { 
+        background:#4a01c0;
+      
+      } 
+
+section {
+    padding: 2rem;
+}
+
+.product {
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 21px 0;
+    color:#fff;
+    text-shadow: 1px 0 1px #000000, 
+          0 1px 1px #000000, 
+         -1px 0 1px #000000, 
+         0 -1px 1px #000000;
+         font-family:'Courier New', Courier, monospace;
+         font-size: large;
+    } 
+.about {
+    padding-left: 2%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight:800;
+}

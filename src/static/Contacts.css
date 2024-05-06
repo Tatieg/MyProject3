@@ -1,0 +1,86 @@
+  h1 {
+    font-family:Verdana, sans-serif;
+  }
+  h4 {
+    font-family:'Courier New', Courier, monospace;
+    margin-left:80%;
+    margin-top: -48px;
+    font-size: 25px;
+   }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    zoom: 80%;
+    background-image: url('Images/Contacts_Background.jpg');
+    }
+
+    header {
+      background-color: #330281;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+      text-shadow: 1px 0 1px #ff0000, 
+      0 1px 1px #ff0000, 
+      -1px 0 1px #ff0000, 
+      0 -1px 1px #ff0000;
+      font-size:medium;
+      }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+          }
+
+          nav ul li {
+            display: inline;
+            margin-right: 20px;
+            background-color: #330281;
+            padding: 10px 10px;
+            }
+        
+              nav ul li:hover { 
+                background:#4a01c0; 
+              } 
+        
+              nav ul li:active { 
+                background:#4a01c0;
+              
+              } 
+
+     footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 21px 0;
+      color:#fff;
+      text-shadow: 1px 0 1px #000000, 
+            0 1px 1px #000000, 
+           -1px 0 1px #000000, 
+           0 -1px 1px #000000;
+           font-family:'Courier New', Courier, monospace;
+           font-size: large;
+      } 
+
+    .contact-info {
+        margin-left: 77.5%;
+        margin-top: -991px;
+        text-align: center;
+        background-color: #330281;
+        color: #ffffff;
+         width: 22.5%;
+         height: 966px;
+         text-shadow: 1px 0 1px #007c1b, 
+          0 1px 1px #008b1e, 
+         -1px 0 1px #007018, 
+         0 -1px 1px #008d1f;
+         font-family: 'Times New Roman', Times, serif;
+         font-size:medium;
+            }
+    iframe {
+        text-align: center;
+    }
+
+
+  
