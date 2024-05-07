@@ -21,3 +21,6 @@ docker build -t aa . && docker run -p 5000:5000 aa</pre>
 
 <h2>Скриншоты работы веб сайта:</h2>
 <img src="Screenshot/11.png">
+<img src="Screenshot/22.png">
+<img src="Screenshot/33.png">
+<img src="Screenshot/44.png">
