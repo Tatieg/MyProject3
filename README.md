@@ -15,13 +15,19 @@
    После выполните в cmd:
     <pre> 
      cd *папка с сайтом*/src
-      docker build -t aa . && docker run -p 5000:5000 aa
-        venv\scripts\activate
-          pip install flask
-            pip install flask_login
-              pip install flask_sqlalchemy
-                python app.py
+
+      venv\scripts\activate
+
+        pip install flask
+
+          pip install flask_login
+
+             pip install flask_sqlalchemy
+
+              python app.py
+
     Зайдите на Ip адрес 127.0.0.1:10000 в браузере через https://
+    
     </pre>
 <h2>Пользование продуктом</h2>
  После успешного выполнения всех действий вы можете начать пользоваться сайтом, также его можно взять в качестве шаблона к своему сайта и подсмотреть код, позаимствуя тот или иной отрывок для своих проектов.
